@@ -33,8 +33,6 @@ let drawing = false;
 document.body.onmousedown = () => (drawing = true);
 document.body.onmouseup = () => (drawing = false);
 
-
-
 function createCanvas() {
     for (let i = 0; i < 625; i++) {
         const pixel = document.createElement('div');
@@ -43,7 +41,6 @@ function createCanvas() {
     }
 }
 
-
 function resetCanvas() {
     canvas.innerHTML = '';
     createCanvas();
@@ -51,13 +48,6 @@ function resetCanvas() {
 
 function draw(e) {
     if (e.type === 'mouseover' && !drawing) return
-    // if (mode.mode === 'color') {
-    //     e.target.style.backgroundColor = color;
-    // } else if (mode === 'black') {
-    //     e.target.style.backgroundColor = '#000';
-    // } else if (mode === 'eraser') {
-    //     e.target.style.backgroundColor = '#fff';
-    // }
     switch (mode.mode) {
         case 'color':
             e.target.style.backgroundColor = color;
