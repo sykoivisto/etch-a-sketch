@@ -6,4 +6,4 @@ I made this project as part of [The Odin Project](https://www.theodinproject.com
 
 HTML | CSS | JavaScript
 
-[Live DEMO at sykoivisto.github.io/sign-up-form/sign-up-form.html](https://sykoivisto.github.io/sign-up-form/sign-up-form.html)
+[Live DEMO](https://sykoivisto.github.io/etch-a-sketch/)
